@@ -44,4 +44,4 @@ penify-cli commit -gf /path/to/your/repo -t your_api_token
 - Use the `-m` flag to add context that the AI might miss
 - Incorporate Penify-CLI into your regular Git workflow for consistency
 
-For more information on Git commit best practices, check out our [Git Commit Guide](git-commit-guide.md).
+For more information on Git commit best practices, check out our [Git Commit Guide](/docs/git-commit-guide.md).

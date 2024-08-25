@@ -40,4 +40,4 @@ The generated documentation will typically include:
 - Use the output to update your project's changelog
 - Incorporate Git changes documentation into your code review process
 
-For more information on managing and documenting Git changes, see our [Git Workflow Guide](git-workflow-guide.md).
+For more information on managing and documenting Git changes, see our [Git Workflow Guide](/docs/git-workflow-guide.md).

@@ -53,4 +53,4 @@ The installed post-commit hook will automatically run Penify-CLI after each comm
 - Regularly update your Penify-CLI to ensure you have the latest hook functionality
 - Configure your hook to match your team's workflow and documentation needs
 
-For more information on Git hooks and automation, check out our [Git Automation Guide](git-automation-guide.md).
+<!-- For more information on Git hooks and automation, check out our [Git Automation Guide](git-automation-guide.md). -->

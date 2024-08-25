@@ -40,4 +40,4 @@ The generated documentation will typically include:
 - Review and refine the generated documentation
 - Use inline comments for complex logic that may need additional explanation
 
-For more information on code documentation standards, see our [Documentation Style Guide](doc-style-guide.md).
+<!-- For more information on code documentation standards, see our [Documentation Style Guide](doc-style-guide.md). -->
