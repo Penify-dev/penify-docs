@@ -2,8 +2,7 @@
 layout: doc
 ---
 
-
-## What are Semantic Commit Messages?
+# What are Semantic Commit Messages?
 
 In the world of software development, the way we communicate changes to our codebase is just as crucial as the code itself. Hence we use Semantic Commit Messages. Let's dive into what they are, why they matter, and how to implement them effectively.
 
@@ -24,7 +23,7 @@ feat: add hat wobble
 +-------> Type: chore, docs, feat, fix, refactor, style, or test.
 ```
 
-### More Examples
+## Details
 
 - feat: (new feature for the user, not a new feature for build script)
 - fix: (bug fix for the user, not a fix to a build script)
