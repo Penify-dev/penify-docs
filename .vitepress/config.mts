@@ -95,31 +95,31 @@ export default defineConfig({
             text: "🔑 Create API Token",
             link: "/docs/Creating-API-Keys-in-Penify",
           },
+        ],
+      },
+      {
+        text: "🖥️ Penify Cli Tutorial",
+        link: "/docs/penify-cli",
+        items: [
           {
-            text: "🖥️ Penify Cli Tutorial",
-            link: "/docs/penify-cli",
-            items: [
-              {
-                text: "📝 Commit Summary Generation",
-                link: "/docs/commit-summary-generation-cli",
-              },
-              {
-                text: "📄 File Documentation",
-                link: "/docs/file-documentation-cli",
-              },
-              {
-                text: "📁 Repository Documentation",
-                link: "/docs/repository-documentation-cli",
-              },
-              {
-                text: "✏️ Commit Documentation",
-                link: "/docs/commit-documentation-cli",
-              },
-              {
-                text: "👨🏻‍💻 Post-Commit Hooks",
-                link: "/docs/post-commit-hooks-cli",
-              },
-            ],
+            text: "📝 Commit Summary Generation",
+            link: "/docs/commit-summary-generation-cli",
+          },
+          {
+            text: "📄 File Documentation",
+            link: "/docs/file-documentation-cli",
+          },
+          {
+            text: "📁 Repository Documentation",
+            link: "/docs/repository-documentation-cli",
+          },
+          {
+            text: "✏️ Commit Documentation",
+            link: "/docs/commit-documentation-cli",
+          },
+          {
+            text: "👨🏻‍💻 Post-Commit Hooks",
+            link: "/docs/post-commit-hooks-cli",
           },
         ],
       },
