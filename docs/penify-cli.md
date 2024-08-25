@@ -12,11 +12,11 @@ Penify-CLI is a powerful command-line tool designed to streamline your developme
 
 ## Key Features
 
-1. [Commit Summary Generation](commit-summary-generation.md): Automatically create informative Git commit messages.
-2. [File Documentation](file-documentation.md): Generate comprehensive documentation for individual code files.
-3. [Repository Documentation](repo-documentation.md): Create documentation for entire code repositories.
-4. [Git Changes Documentation](git-changes-documentation.md): Document recent changes in your Git repository.
-5. [Post-Commit Hooks](post-commit-hooks.md): Install and manage Git post-commit hooks for automated workflows.
+1. [Commit Summary Generation](/docs/commit-summary-generation-cli.md): Automatically create informative Git commit messages.
+2. [File Documentation](/docs/commit-documentation-cli.md.md): Generate comprehensive documentation for individual code files.
+3. [Repository Documentation](/docs/repository-documentation-cli.md): Create documentation for entire code repositories.
+4. [Git Changes Documentation](/docs/commit-documentation-cli.md): Document recent changes in your Git repository.
+5. [Post-Commit Hooks](/docs/post-commit-hooks-cli.md): Install and manage Git post-commit hooks for automated workflows.
 
 ## Installation
 
