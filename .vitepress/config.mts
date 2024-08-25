@@ -98,7 +98,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "🖥️ Penify Cli Tutorial",
+        text: "🖥️ Penify CLI",
         link: "/docs/penify-cli",
         items: [
           {
