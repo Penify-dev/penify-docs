@@ -40,12 +40,18 @@ In this tutorial, you'll learn how to create API keys in Penify, which are essen
 
 ## **Step 5: Use the API Key in Your Project**
 
-1. To use the API key in your project like Penify-Hook add it to your project's configuration file or environment variable:
+1. To use the API key in your project like Penify-Hook add it to your environment variable:
    
-   **Example in a `.env` file:**
+   **Example in a `.bashrc` file:**
+
    ```bash
-   PENIFY_API_KEY=your_api_key_here
+   export PENIFY_API_KEY=your_api_key_here
    ```
+or in the terminal type
+
+```bash
+export PENIFY_API_KEY=your_api_key_here
+```
 
 ## **Step 6: Managing and Revoking API Keys**
 
