@@ -14,8 +14,17 @@ hero:
       link: https://github.com/SingularityX-ai/
 
 features:
-  - title: Automatic Documentation Generation
-    details: Penify is an intelligent GitHub App designed to automate the process of generating and updating documentation for GitHub projects.
+  - title: Penify CLI
+    details: Guide on how to setup and use Penify-cli for documentation and commit summary generation
+    link: /docs/penify-cli.md
+  - title: Create API Token
+    details: Guide on how to create API Token
+    link: /docs/Creating-API-Keys-in-Penify.md
+  - title: Install Penify on AuzreDevops
+    details: Guide on how to install Penify  on AzureDevops
+    link: /docs/install-penify-on-AzureDevops.md
+  - title: Install Penify on Github
+    details: Details on how to install Penify  on Github
     link: /docs/what-is-penify.md
   # - title: Feature B
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

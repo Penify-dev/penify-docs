@@ -5,23 +5,55 @@ export default defineConfig({
   lang: "en-US",
   title: "Penify",
   titleTemplate: ":title",
-  description: "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
+  description:
+    "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    ['meta', { name: 'Penify', content: 'Automated Docstring Generation' }],
-    ['meta', { name: 'keywords', content: 'Penify, docstring, automated docstring, python docstring, LLMs, Generative AI, AI documentation, AI docstring' }],
-    ['meta', { property: 'og:title', content: 'Penify' }],
-    ['meta', { property: 'og:description', content: 'Effortlessly generate precise, human like docstrings for GitHub repos with Penify.' }],
-    ['meta', { property: 'og:image', content: '../public/banner.png' }],
-    ['meta', { property: 'og:url', content: 'https://www.penify.dev' }],
-    ['script', { type: 'text/javascript', id: 'hs-script-loader', src: '//js-na1.hs-scripts.com/44651459.js' }],
-    ['script', { async: "true", src: 'https://www.googletagmanager.com/gtag/js?id=G-YBZEWEWTVY' }],
-    ['script', {}, `
+    ["meta", { name: "Penify", content: "Automated Docstring Generation" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "Penify, docstring, automated docstring, python docstring, LLMs, Generative AI, AI documentation, AI docstring",
+      },
+    ],
+    ["meta", { property: "og:title", content: "Penify" }],
+    [
+      "meta",
+      {
+        property: "og:description",
+        content:
+          "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
+      },
+    ],
+    ["meta", { property: "og:image", content: "../public/banner.png" }],
+    ["meta", { property: "og:url", content: "https://www.penify.dev" }],
+    [
+      "script",
+      {
+        type: "text/javascript",
+        id: "hs-script-loader",
+        src: "//js-na1.hs-scripts.com/44651459.js",
+      },
+    ],
+    [
+      "script",
+      {
+        async: "true",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-YBZEWEWTVY",
+      },
+    ],
+    [
+      "script",
+      {},
+      `
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-YBZEWEWTVY');
-    `]
+    `,
+    ],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -29,7 +61,11 @@ export default defineConfig({
 
     nav: [
       { text: "Home", link: "/" },
-      { text: "Email", link: "mailto:sumansaurabh@penify.dev", rel: "noopener noreferrer" },
+      {
+        text: "Email",
+        link: "mailto:sumansaurabh@penify.dev",
+        rel: "noopener noreferrer",
+      },
     ],
 
     search: {
@@ -38,27 +74,88 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "What is Penify?",
+        text: "📚 What is Penify?",
         link: "/docs/what-is-penify",
         items: [
-          { text: "Install Penify on Github", link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github", items: [
-            { text: "🛠 Troubleshoot Code Git Commit Documentation", link: "/docs/troubleshooting-code-git-commit-documentation" },
-          ] },
-          { text: "Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
-          { text: "Create API Token", link: "/docs/Creating-API-Keys-in-Penify" },
-          { text: "Penify Hook Tutorial", link: "/docs/penify-cli" },
-          
+          {
+            text: "🔧 Install Penify on Github",
+            link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github",
+            items: [
+              {
+                text: "🐞 Troubleshoot Code Git Commit Documentation",
+                link: "/docs/troubleshooting-code-git-commit-documentation",
+              },
+            ],
+          },
+          {
+            text: "🔧 Install Penify on AzureDevops",
+            link: "/docs/install-penify-on-AzureDevops",
+          },
+          {
+            text: "🔑 Create API Token",
+            link: "/docs/Creating-API-Keys-in-Penify",
+          },
+          {
+            text: "🖥️ Penify Cli Tutorial",
+            link: "/docs/penify-cli",
+            items: [
+              {
+                text: "📝 Commit Summary Generation",
+                link: "/docs/commit-summary-generation-cli",
+              },
+              {
+                text: "📄 File Documentation",
+                link: "/docs/file-documentation-cli",
+              },
+              {
+                text: "📁 Repository Documentation",
+                link: "/docs/repository-documentation-cli",
+              },
+              {
+                text: "✏️ Commit Documentation",
+                link: "/docs/commit-documentation-cli",
+              },
+              {
+                text: "👨🏻‍💻 Post-Commit Hooks",
+                link: "/docs/post-commit-hooks-cli",
+              },
+            ],
+          },
         ],
-      }
+      },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/SingularityX-ai/", ariaLabel: "GitHub URL"},
-      { icon: "linkedin", link: "https://www.linkedin.com/company/penify-dev/", ariaLabel: "LinkedIn URL" },
-      { icon: "youtube", link: "https://www.youtube.com/@penify-dev", ariaLabel: "YouTube URL" },
-      { icon: "twitter", link: "https://twitter.com/Snorkell_ai", ariaLabel: "Twitter URL" },
-      { icon: "instagram", link: "https://www.instagram.com/penify.dev/", ariaLabel: "Twitter URL" },
-      { icon: "discord", link: "https://discord.gg/wqrc8JeV", ariaLabel: "Discord URL" },
+      {
+        icon: "github",
+        link: "https://github.com/SingularityX-ai/",
+        ariaLabel: "GitHub URL",
+      },
+      {
+        icon: "linkedin",
+        link: "https://www.linkedin.com/company/penify-dev/",
+        ariaLabel: "LinkedIn URL",
+      },
+      {
+        icon: "youtube",
+        link: "https://www.youtube.com/@penify-dev",
+        ariaLabel: "YouTube URL",
+      },
+      {
+        icon: "twitter",
+        link: "https://twitter.com/Snorkell_ai",
+        ariaLabel: "Twitter URL",
+      },
+      {
+        icon: "instagram",
+        link: "https://www.instagram.com/penify.dev/",
+        ariaLabel: "Twitter URL",
+      },
+      {
+        icon: "discord",
+        link: "https://discord.gg/wqrc8JeV",
+        ariaLabel: "Discord URL",
+      },
     ],
 
     footer: {
@@ -67,7 +164,7 @@ export default defineConfig({
   },
   appearance: true, // Enable theme switching
   sitemap: {
-    hostname: 'https://docs.penify.dev',
-    lastmodDateOnly: false
-  }
+    hostname: "https://docs.penify.dev",
+    lastmodDateOnly: false,
+  },
 });
