@@ -40,4 +40,4 @@ The generated documentation will typically include:
 - Keep your repository documentation up-to-date with regular runs
 - Use repository documentation as a starting point for creating user manuals or API docs
 
-For tips on organizing your repository for optimal documentation, see our [Repository Structure Guide](repo-structure-guide.md).
+<!-- For tips on organizing your repository for optimal documentation, see our [Repository Structure Guide](repo-structure-guide.md). -->
