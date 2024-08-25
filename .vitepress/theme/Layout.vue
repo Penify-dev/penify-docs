@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <template #doc-footer-before>
+    <template #aside-bottom>
       <ShareButtons />
     </template>
   </Layout>

@@ -32,7 +32,7 @@
 import { useData } from 'vitepress'
 
 const { page } = useData()
-const url = `https://your-domain.com${page.value.relativePath.replace(
+const url = `https://docs.penify.dev/${page.value.relativePath.replace(
   '.md',
   '.html'
 )}`
