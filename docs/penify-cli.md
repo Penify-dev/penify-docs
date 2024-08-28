@@ -26,18 +26,27 @@ To install Penify-CLI, run the following command:
 pip install penify-cli
 ```
 
+## Login
+
+Login to Penify
+
+```bash
+penify-cli login
+```
+
 ## Quick Start
 
 Here's a quick example to generate a commit summary:
 
 ```bash
-penify-cli commit -gf /path/to/your/repo -t your_api_token
+cd /path/to/your/repo
+penify-cli commit
 ```
 
 For more detailed information on each feature, please refer to the specific documentation pages linked above.
 
 ## Support
 
-If you encounter any issues or have questions, please visit our [GitHub Issues](https://github.com/SingularityX-ai/penify-cli/issues) page or contact our support team at support@penify.dev.
+If you encounter any issues or have questions, please visit our [GitHub Issues](https://github.com/SingularityX-ai/penify-cli/issues) page or contact our support team at <support@penify.dev>.
 
 Happy coding with Penify-CLI!

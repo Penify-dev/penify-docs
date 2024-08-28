@@ -6,12 +6,19 @@ layout: doc
 
 Penify-CLI can automatically generate informative Git commit summaries, saving you time and improving your repository's history.
 
+## Login
+
+```bash
+penify-cli login
+```
+
 ## Usage
 
 To generate a commit summary:
 
 ```bash
-penify-cli commit -gf /path/to/your/repo -t your_api_token
+cd /path/to/your/repo
+penify-cli commit
 ```
 
 ### Options
@@ -25,17 +32,17 @@ penify-cli commit -gf /path/to/your/repo -t your_api_token
 
 1. Basic usage:
    ```bash
-   penify-cli commit -gf /path/to/repo -t your_token
+   penify-cli commit
    ```
 
 2. With a custom message:
    ```bash
-   penify-cli commit -gf /path/to/repo -t your_token -m "Implement login feature"
+   penify-cli commit -m "Implement login feature"
    ```
 
 3. Open editor for final adjustments:
    ```bash
-   penify-cli commit -gf /path/to/repo -t your_token -e True
+   penify-cli commit -e True
    ```
 
 ## Best Practices
