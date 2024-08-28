@@ -1,5 +1,8 @@
 ---
 layout: doc
+title: "Troubleshooting Penify Code Git Commit Documentation: A Comprehensive Guide"
+description: "Navigate common issues in Penify's Git Commit Documentation feature with this detailed troubleshooting guide. Learn how to resolve GitHub App installation problems, workflow configuration issues, and secrets management challenges to ensure smooth automated documentation generation."
+keywords: Penify, Git Commit Documentation, troubleshooting, GitHub App, workflow configuration, GitHub Actions, repository settings, GitHub secrets, SNORKELL_API_KEY, SNORKELL_CLIENT_ID, automated documentation, pull requests, GitHub integration
 ---
 
 # 🚀 Troubleshooting Guide for Penify Code Git Commit Documentation

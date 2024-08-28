@@ -1,5 +1,8 @@
 ---
 layout: doc
+title: "Comprehensive Repository Documentation with Penify-CLI: A Complete Guide"
+description: "Learn how to use Penify-CLI to generate thorough documentation for entire code repositories. This guide covers usage instructions, output details, and best practices for creating and maintaining comprehensive project overviews, enhancing code understanding and collaboration."
+keywords: Penify-CLI, repository documentation, code documentation, project overview, documentation generation, developer tools, code comprehension, project structure, API documentation, software documentation, automated documentation
 ---
 
 # Repository Documentation using Penify-cli

@@ -1,5 +1,8 @@
 ---
 layout: doc
+title: "Automating File Documentation with Penify-CLI: A Comprehensive Guide"
+description: Learn how to use Penify-CLI to generate detailed documentation for individual code files. This guide covers the usage, options, and best practices for creating comprehensive file-level documentation, enhancing code readability and maintainability.
+keywords: Penify-CLI, file documentation, automated documentation, code documentation, developer tools, code readability, maintainability, Python documentation
 ---
 
 # File Documentation using Penify-cli

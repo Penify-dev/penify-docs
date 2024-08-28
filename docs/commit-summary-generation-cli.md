@@ -1,5 +1,8 @@
 ---
 layout: doc
+title: Streamline Git Commits with Penify-CLI's Automatic Summary Generation
+description: Learn how to use Penify-CLI to automatically generate informative Git commit summaries, saving time and improving your repository's history. Explore usage, options, and best practices for efficient commit management.
+keywords: Penify-CLI, Git commit summaries, automated documentation, version control, commit messages, repository history, developer productivity
 ---
 
 # Commit Summary Generation using Penify-cli

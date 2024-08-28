@@ -1,8 +1,8 @@
 ---
 layout: doc
-title: Post-Commit Hooks Guide for Penify-CLI
-description: Learn how to install, manage, and use Git post-commit hooks with Penify-CLI for automated documentation workflows.
-keywords: Penify-CLI, Git hooks, post-commit hooks, automated documentation
+title: "Post-Commit Hooks Guide for Penify-CLI"
+description: "Learn how to install, manage, and use Git post-commit hooks with Penify-CLI for automated documentation workflows."
+keywords: Penify-CLI, Git hooks, post-commit hooks, automated documentation, version control, continuous documentation, developer workflow, code documentation, Git automation
 ---
 
 # Post-Commit Hooks

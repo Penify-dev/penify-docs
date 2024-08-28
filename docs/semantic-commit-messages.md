@@ -1,5 +1,8 @@
 ---
 layout: doc
+title: "Understanding and Implementing Semantic Commit Messages: A Developer's Guide"
+description: "Explore the importance and implementation of Semantic Commit Messages in software development. Learn the standard format, types of commits, and best practices for creating clear, consistent, and informative commit messages that enhance code documentation and version control."
+keywords: Semantic Commit Messages, version control, Git, commit types, software development practices, code documentation, commit conventions, feat, fix, docs, style, refactor, test, chore, code collaboration
 ---
 
 # What are Semantic Commit Messages?

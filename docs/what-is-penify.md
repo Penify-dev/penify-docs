@@ -1,5 +1,8 @@
 ---
 layout: doc
+itle: "Penify: Automated Documentation for GitHub Projects - Overview and Installation Guide"
+description: "Discover Penify, an intelligent GitHub App for automating code documentation. Learn about its core features including code, PR, API, and architecture documentation, as well as Git commit hooks. Follow our step-by-step guide to install Penify on your GitHub repository or organization."
+keywords: Penify, GitHub App, automated documentation, code documentation, pull request documentation, API documentation, architecture documentation, Git commit hooks, GitHub integration, installation guide, developer tools, continuous documentation
 ---
 
 # What's Penify?
