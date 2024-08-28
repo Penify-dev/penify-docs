@@ -6,12 +6,20 @@ layout: doc
 
 Penify-CLI can generate comprehensive documentation for individual code files.
 
+## Login
+
+Login to Penify, make sure you have an account or you have [created an account](https://www.penify.dev/).
+
+```bash
+penify-cli login
+```
+
 ## Usage
 
 To generate documentation for a single file:
 
 ```bash
-penify-cli doc-gen -t your_api_token -fl /path/to/your/file.py
+penify-cli doc-gen -fl /path/to/your/file.py
 ```
 
 ### Options
@@ -22,7 +30,7 @@ penify-cli doc-gen -t your_api_token -fl /path/to/your/file.py
 ## Example
 
 ```bash
-penify-cli doc-gen -t your_token -fl /path/to/project/main.py
+penify-cli doc-gen -fl /path/to/project/main.py
 ```
 
 ## Output

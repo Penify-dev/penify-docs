@@ -6,12 +6,20 @@ layout: doc
 
 Penify-CLI can generate documentation for entire code repositories, giving you a comprehensive overview of your project.
 
+## Login
+
+Login to Penify, make sure you have an account or you have [created an account](https://www.penify.dev/).
+
+```bash
+penify-cli login
+```
+
 ## Usage
 
 To generate documentation for a repository:
 
 ```bash
-penify-cli doc-gen -t your_api_token -cf /path/to/your/repo
+penify-cli doc-gen -cf /path/to/your/repo
 ```
 
 ### Options
@@ -22,7 +30,7 @@ penify-cli doc-gen -t your_api_token -cf /path/to/your/repo
 ## Example
 
 ```bash
-penify-cli doc-gen -t your_token -cf /path/to/project
+penify-cli doc-gen -cf /path/to/project
 ```
 
 ## Output

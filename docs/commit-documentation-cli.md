@@ -6,24 +6,27 @@ layout: doc
 
 Penify-CLI can generate documentation of classes/functions for your recent changes in your Git repository, helping you keep track of evolving codebases.
 
+## Login
+
+Login to Penify, make sure you have an account or you have [created an account](https://www.penify.dev/).
+
+```bash
+penify-cli login
+```
+
 ## Usage
 
 To document recent Git changes:
 
 ```bash
-penify-cli doc-gen -t your_api_token -gf /path/to/your/repo
+cd /path/to/folder
+penify-cli doc-gen
 ```
 
 ### Options
 
 - `-t, --token`: Your Penify API token
 - `-gf, --git_folder_path`: Path to the Git repository you want to document
-
-## Example
-
-```bash
-penify-cli doc-gen -t your_token -gf /path/to/project
-```
 
 ## Output
 

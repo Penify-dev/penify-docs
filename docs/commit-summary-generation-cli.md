@@ -8,6 +8,8 @@ Penify-CLI can automatically generate informative Git commit summaries, saving y
 
 ## Login
 
+Login to Penify, make sure you have an account or you have [created an account](https://www.penify.dev/).
+
 ```bash
 penify-cli login
 ```

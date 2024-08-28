@@ -6,12 +6,21 @@ layout: doc
 
 Penify-CLI allows you to install and manage Git post-commit hooks for automated workflows.
 
+## Login
+
+Login to Penify, make sure you have an account or you have [created an account](https://www.penify.dev/).
+
+```bash
+penify-cli login
+```
+
 ## Installation
 
 To install a post-commit hook:
 
 ```bash
-penify-cli install-hook -l /path/to/repo -t your_api_token
+cd /path/to/rep
+penify-cli install-hook
 ```
 
 ### Options
@@ -24,32 +33,22 @@ penify-cli install-hook -l /path/to/repo -t your_api_token
 To uninstall a post-commit hook:
 
 ```bash
-penify-cli uninstall-hook -l /path/to/repo
+cd /path/to/repo
+penify-cli uninstall-hook
 ```
 
 ### Options
 
 - `-l, --location`: Path to the Git repository from which you want to uninstall the hook
 
-## Examples
-
-1. Install a hook:
-   ```bash
-   penify-cli install-hook -l /path/to/project -t your_token
-   ```
-
-2. Uninstall a hook:
-   ```bash
-   penify-cli uninstall-hook -l /path/to/project
-   ```
 
 ## Functionality
 
-The installed post-commit hook will automatically run Penify-CLI after each commit, generating documentation or commit summaries based on your configuration.
+The installed post-commit hook will automatically run Penify-CLI after each commit, generating documentation of the modified code.
 
 ## Best Practices
 
-- Use post-commit hooks in conjunction with your CI/CD pipeline
+- Use post-commit hooks in conjunction with your CI pipeline.
 - Regularly update your Penify-CLI to ensure you have the latest hook functionality
 - Configure your hook to match your team's workflow and documentation needs
 
