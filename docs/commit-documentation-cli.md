@@ -1,5 +1,4 @@
 ---
-layout: doc
 title: Git Commit Changes Documentation with Penify-CLI
 description: Learn how to use Penify-CLI to automatically generate documentation for recent changes in your Git repository, helping you track and understand evolving codebases.
 keywords: Penify-CLI, Git changes, documentation generation, code documentation, version control, changelog

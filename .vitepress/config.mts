@@ -7,7 +7,7 @@ export default defineConfig({
   titleTemplate: ":title",
   description:
     "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
-  transformHead: ({ pageData }) => {
+    transformPageData: (pageData) => {
     const head: HeadConfig[] = [];
 
     head.push([
@@ -34,15 +34,6 @@ export default defineConfig({
         name: "keywords",
         content:
           "Penify, docstring, automated docstring, python docstring, LLMs, Generative AI, AI documentation, AI docstring",
-      },
-    ],
-    ["meta", { property: "og:title", content: "Penify" }],
-    [
-      "meta",
-      {
-        property: "og:description",
-        content:
-          "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
       },
     ],
     ["meta", { property: "og:image", content: "../public/banner.png" }],
