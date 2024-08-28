@@ -7,7 +7,7 @@ export default defineConfig({
   titleTemplate: ":title",
   description:
     "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
-    transformPageData: (pageData) => {
+    transformHead: ({pageData}) => {
     const head: HeadConfig[] = [];
 
     head.push([
