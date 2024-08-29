@@ -3,6 +3,9 @@ layout: doc
 title: "Mastering Git Commits: A Comprehensive Guide with Penify-CLI Integration"
 description: "Learn best practices for creating clear, informative, and useful Git commits. This guide covers commit message structure, content best practices, and how to leverage Penify-CLI for improved commit quality and analysis, ensuring a clean and understandable project history."
 keywords: Git, commit messages, version control, best practices, Penify-CLI, code documentation, collaborative development, commit conventions, atomic commits, commit analysis
+author: Suman Sauarbh
+linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
+image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
 # Git Commit Guide

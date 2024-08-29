@@ -3,6 +3,9 @@ layout: doc
 title: "Optimizing Git Workflow: A Comprehensive Guide with Penify-CLI Integration"
 description: "Master Git workflow best practices enhanced by Penify-CLI integration. Learn effective branching strategies, commit practices, code review processes, and documentation techniques. This guide covers everything from daily development to release management, ensuring a streamlined and well-documented Git repository."
 keywords: Git workflow, Penify-CLI, version control, branching strategy, commit practices, code review, documentation, release process, continuous integration, hotfix management, collaborative development
+author: Suman Sauarbh
+linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
+image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
 # Git Workflow Guide

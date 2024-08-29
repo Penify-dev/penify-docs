@@ -3,6 +3,9 @@ layout: doc
 title: "Penify-CLI Documentation: Your Guide to AI-Powered Code Documentation and Git Management"
 description: "Explore the comprehensive guide to Penify-CLI, an AI-powered tool for automating code documentation and Git commit management. Learn about key features including commit summary generation, file and repository documentation, Git changes tracking, and post-commit hooks, along with installation and quick start instructions."
 keywords: Penify-CLI, AI documentation, code documentation, Git commit management, command-line tool, developer workflow, commit summaries, file documentation, repository documentation, post-commit hooks, Python tool
+author: Suman Sauarbh
+linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
+image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
 # Penify-CLI Documentation

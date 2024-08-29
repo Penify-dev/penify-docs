@@ -3,6 +3,9 @@ layout: doc
 title: "Installing Penify on AzureDevops: A Comprehensive Step-by-Step Guide"
 description: "Learn how to seamlessly integrate Penify with your AzureDevops repository for automated documentation generation. This guide covers everything from creating YAML files and setting up pipelines to configuring API keys and watching Penify in action, ensuring your project's documentation stays up-to-date with every code change."
 keywords: Penify, AzureDevops, installation guide, automated documentation, YAML configuration, pipeline setup, PAT token, SNORKELL API key, continuous integration, AI documentation generation, repository management
+author: Suman Sauarbh
+linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
+image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
 # 🛠️ How to Install Penify on AzureDevops?
