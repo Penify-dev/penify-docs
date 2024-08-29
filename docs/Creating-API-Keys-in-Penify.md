@@ -3,6 +3,9 @@ layout: doc
 title: "How to Create and Manage API Keys in Penify: A Step-by-Step Guide"
 description: Learn the process of creating, using, and managing API keys in Penify to securely integrate Penify services with your applications. This guide covers logging in, generating keys, secure storage, and key management best practices.
 keywords: Penify, API keys, authentication, integration, dashboard, security, developer tools, code documentation, static analysis, API management
+author: Suman Sauarbh
+linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
+image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
 # **Creating API Keys in Penify**
