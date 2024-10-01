@@ -20,6 +20,9 @@ features:
   - title: Create API Token
     details: Guide on how to create API Token
     link: /docs/Creating-API-Keys-in-Penify.md
+  - title: Install Penify on BitBucket
+    details: Guide on how to install Penify  on BitBucket
+    link: /docs/install_penify_on_bitbucket.md
   - title: Install Penify on AuzreDevops
     details: Guide on how to install Penify  on AzureDevops
     link: /docs/install-penify-on-AzureDevops.md

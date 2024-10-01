@@ -105,6 +105,10 @@ export default defineConfig({
             link: "/docs/install-penify-on-AzureDevops",
           },
           {
+            text: "🔧 Install Penify on BitBucket",
+            link: "/docs/install_penify_on_bitbucket",
+          },
+          {
             text: "🔑 Create API Token",
             link: "/docs/Creating-API-Keys-in-Penify",
           },
