@@ -123,6 +123,10 @@ export default defineConfig({
             link: "/docs/commit-summary-generation-cli",
           },
           {
+            text: "📝 Configure Penify to use Local LLM and JIRA",
+            link: "/docs/config-cli-documentation",
+          },
+          {
             text: "📄 File Documentation",
             link: "/docs/file-documentation-cli",
           },
