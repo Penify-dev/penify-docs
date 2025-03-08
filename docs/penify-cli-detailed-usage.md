@@ -87,7 +87,7 @@ The `commit` command analyzes your staged changes and generates meaningful commi
 - Enhance messages with JIRA issue details
 - Provide both title and description
 
-For specific options and examples, see [docs/commit-commands.md](commit-commands.md).
+For specific options and examples, see [docs/commit-commands.md](/docs/commit-summary-generation-cli.md).
 
 ## Code Documentation Generation
 
@@ -110,7 +110,7 @@ Configure local settings using the `config` command:
 - **LLM Settings**: Configure a local LLM for commit message generation
 - **JIRA Settings**: Set up JIRA integration for enhanced commit messages
 
-For detailed configuration options, see [docs/config-commands.md](config-commands.md).
+For detailed configuration options, see [docs/config-commands.md](/docs/config-cli-documentation.md).
 
 ## Git Hooks
 

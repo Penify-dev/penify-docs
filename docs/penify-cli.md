@@ -96,4 +96,4 @@ penifycli docgen --help
 penifycli config --help
 ```
 
-For detailed documentation and examples, see [docs/detailed-usage.md](docs/detailed-usage.md).
+For detailed documentation and examples, see [docs/detailed-usage.md](/docs/penify-cli-detailed-usage.md).
