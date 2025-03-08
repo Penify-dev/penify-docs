@@ -10,49 +10,90 @@ image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayp
 
 # Penify-CLI Documentation
 
-Welcome to the official documentation for Penify-CLI, your AI-powered assistant for code documentation and Git commit management.
+Penify CLI is a tool that enhances your development workflow with AI-powered capabilities:
 
-## What is Penify-CLI?
-
-Penify-CLI is a powerful command-line tool designed to streamline your development workflow. It uses advanced AI to automate code documentation and generate meaningful Git commit summaries.
-
-## Key Features
-
-1. [Commit Summary Generation](/docs/commit-summary-generation-cli.md): Automatically create informative Git commit messages.
-2. [File Documentation](/docs/commit-documentation-cli.md.md): Generate comprehensive documentation for individual code files.
-3. [Repository Documentation](/docs/repository-documentation-cli.md): Create documentation for entire code repositories.
-4. [Git Changes Documentation](/docs/commit-documentation-cli.md): Document recent changes in your Git repository.
-5. [Post-Commit Hooks](/docs/post-commit-hooks-cli.md): Install and manage Git post-commit hooks for automated workflows.
+- Generate smart commit messages using local LLM models or cloud API
+- Automatically create code documentation
+- Integrate with JIRA for enhanced commit messages
+- Install Git hooks for automated documentation generation
 
 ## Installation
 
-To install Penify-CLI, run the following command:
-
 ```bash
-pip install penify-cli
+pip install penifycli
 ```
 
-## Login
+## Authentication
 
-Login to Penify
+Penify CLI supports two authentication methods:
 
-```bash
-penify-cli login
-```
-
-## Quick Start
-
-Here's a quick example to generate a commit summary:
+### 1. Login to Penify Account (Required for Advanced Features)
 
 ```bash
-cd /path/to/your/repo
-penify-cli commit
+penifycli login
 ```
 
-For more detailed information on each feature, please refer to the specific documentation pages linked above.
+This command will open your browser and prompt you to log in to your Penify account. Once authenticated, your API token will be saved locally.
 
-## Support
+### 2. Environment Variable
 
-If you encounter any issues or have questions, please visit our [GitHub Issues](https://github.com/SingularityX-ai/penify-cli/issues) page or contact our support team at <support@penify.dev>.
+For CI/CD pipelines or automated environments, you can set:
 
-Happy coding with Penify-CLI!
+```bash
+export PENIFY_API_TOKEN=your_api_token
+```
+
+## Basic Usage
+
+### Generate Smart Commit Messages
+
+```bash
+penifycli commit
+```
+
+### Generate Code Documentation
+
+```bash
+# Generate documentation for current Git diff (requires login)
+penifycli docgen
+
+# Generate documentation for a specific file
+penifycli docgen -l path/to/file.py
+
+# Generate documentation for a folder
+penifycli docgen -l path/to/folder
+```
+
+### Configure Local LLM or JIRA
+
+```bash
+# Configure Local LLM for commit message generation
+penifycli config llm
+
+# Configure JIRA integration
+penifycli config jira
+```
+
+### Automate Documentation with Git Hooks
+
+```bash
+# Install a post-commit hook
+penifycli docgen install-hook
+
+# Remove the hook
+penifycli docgen uninstall-hook
+```
+
+## Getting Help
+
+```bash
+# Get general help
+penifycli --help
+
+# Get help for a specific command
+penifycli commit --help
+penifycli docgen --help
+penifycli config --help
+```
+
+For detailed documentation and examples, see [docs/detailed-usage.md](docs/detailed-usage.md).
