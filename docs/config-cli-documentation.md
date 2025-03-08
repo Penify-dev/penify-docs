@@ -4,7 +4,6 @@ title: Penify-CLI Configuration for LLM and JIRA Integration
 description: Learn how to configure Penify-CLI for local LLM-powered commit messages and JIRA-enhanced workflows. This guide covers setup, supported providers, environment variables, and troubleshooting for seamless integration.
 keywords: Penify-CLI, configuration, LLM setup, JIRA integration, Git automation, commit messages, developer tools, troubleshooting
 author: Suman Sauarbh
-author: Suman Sauarbh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
 image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
