@@ -2,6 +2,7 @@
   <Layout>
     <template #aside-bottom>
       <ShareButtons />
+      <EmailSignup />
     </template>
     <template #doc-footer-before>
       <AuthorInfo />
