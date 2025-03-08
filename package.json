@@ -13,7 +13,10 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
-    "vite-plugin-webp-generator": "^0.0.5",
+    "@supabase/supabase-js": "^2.39.0",
+    "@types/node": "^22.13.8",
+    "fs-extra": "^11.2.0",
+    "vite-plugin-webp-generator": "^0.1.0",
     "vitepress": "^1.6.3"
   }
 }
