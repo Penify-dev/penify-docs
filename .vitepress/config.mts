@@ -115,6 +115,10 @@ export default defineConfig({
         link: "/docs/penify-cli",
         items: [
           {
+            text: "📝 Penify Detailed Usage guide",
+            link: "/docs/penify-cli-detailed-usage",
+          },
+          {
             text: "📝 Commit Summary Generation",
             link: "/docs/commit-summary-generation-cli",
           },

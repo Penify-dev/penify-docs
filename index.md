@@ -14,6 +14,9 @@ hero:
       link: https://github.com/SingularityX-ai/
 
 features:
+  - title: Penify CLI detailed usage guide
+    details: Guide on how to setup and use Penify-cli for documentation and commit summary generation
+    link: /docs/penify-cli-detailed-usage.md
   - title: Penify CLI
     details: Guide on how to setup and use Penify-cli for documentation and commit summary generation
     link: /docs/penify-cli.md
