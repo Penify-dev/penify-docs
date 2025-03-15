@@ -11,7 +11,7 @@ hero:
       link: /docs/what-is-penify.md
     - theme: alt
       text: View on GitHub
-      link: https://github.com/SingularityX-ai/
+      link: https://github.com/Penify-dev/
 
 features:
   - title: Penify CLI detailed usage guide
