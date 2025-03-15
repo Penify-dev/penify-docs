@@ -53,7 +53,7 @@ Installing Penify on your AzureDevops repository or organization is a straightfo
     steps:
     # this will install SnorkellClient to run on your Repository
     - script: |
-        curl -o run_doc_gen.py https://raw.githubusercontent.com/SingularityX-ai/snorkell-documentation-client/main/src/azure_devops.py?q=3
+        curl -o run_doc_gen.py https://raw.githubusercontent.com/Penify-dev/snorkell-documentation-client/main/src/azure_devops.py?q=3
         python -m pip install requests
       displayName: 'Install Penify Client'
     
