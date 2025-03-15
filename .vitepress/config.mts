@@ -166,7 +166,7 @@ export default defineConfig({
       },
       {
         icon: "github",
-        link: "https://github.com/SingularityX-ai/",
+        link: "https://github.com/Penify-dev/",
         ariaLabel: "GitHub URL",
       },
       {
