@@ -118,6 +118,10 @@ export default defineConfig({
             text: "🔑 Create API Token",
             link: "/docs/Creating-API-Keys-in-Penify",
           },
+          {
+            text: "🔑 Penify Configuration: Complete Guide to penify-config.json",
+            link: "/docs/penify-config-json.md",
+          },
         ],
       },
       {
