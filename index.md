@@ -14,14 +14,17 @@ hero:
       link: https://github.com/Penify-dev/
 
 features:
+  - title: "Instant Pull Request Insight: LLM-Powered Code Review and Analysis"
+    details: Guide on how to setup and use Penify-cli for documentation and commit summary generation
+    link: /docs/penify-cli-detailed-usage.md
   - title: Penify CLI detailed usage guide
     details: Guide on how to setup and use Penify-cli for documentation and commit summary generation
     link: /docs/penify-cli-detailed-usage.md
   - title: Penify CLI
     details: Guide on how to setup and use Penify-cli for documentation and commit summary generation
     link: /docs/penify-cli.md
-  - title: "Penify Configuration: Complete Guide to penify-config.json"
-    details: "Learn how to configure Penify with the penify-config.json file. This guide covers all configuration options including API documentation, architecture documentation, repository analysis settings, and Git commit preferences."
+  - title: "Complete Guide to penify.config.json"
+    details: "Learn how to configure Penify with the penify.config.json file. This guide covers all configuration options including API documentation, architecture documentation, repository analysis settings, and Git commit preferences."
     link: /docs/penify-config-json.md
   - title: Create API Token
     details: Guide on how to create API Token

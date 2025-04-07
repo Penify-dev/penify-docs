@@ -119,7 +119,7 @@ export default defineConfig({
             link: "/docs/Creating-API-Keys-in-Penify",
           },
           {
-            text: "🔑 Penify Configuration: Complete Guide to penify-config.json",
+            text: "🔑 Penify Configuration: Complete Guide to penify.config.json",
             link: "/docs/penify-config-json.md",
           },
         ],
@@ -158,6 +158,10 @@ export default defineConfig({
           },
         ],
       },
+      {
+        text: "Instant Pull Request Insight: LLM-Powered Code Review and Analysis",
+        link: "/docs/instant-pull-request-insight.md",
+      }
     ],
 
     socialLinks: [

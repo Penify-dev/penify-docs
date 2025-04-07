@@ -1,20 +1,20 @@
 ---
 layout: doc
-title: "Penify Configuration: Complete Guide to penify-config.json"
-description: "Learn how to configure Penify with the penify-config.json file. This guide covers all configuration options including API documentation, architecture documentation, repository analysis settings, and Git commit preferences."
-keywords: Penify configuration, penify-config.json, API documentation, architecture documentation, repository analysis, Git integration, documentation generation, OpenAPI, developer workflow
+title: "Penify Configuration: Complete Guide to penify.config.json"
+description: "Learn how to configure Penify with the penify.config.json file. This guide covers all configuration options including API documentation, architecture documentation, repository analysis settings, and Git commit preferences."
+keywords: Penify configuration, penify.config.json, API documentation, architecture documentation, repository analysis, Git integration, documentation generation, OpenAPI, developer workflow
 author: Suman Saurabh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
 image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
-# Penify Configuration (penify-config.json)
+# Penify Configuration (penify.config.json)
 
-The `penify-config.json` file is the central configuration resource for Penify. It controls how Penify generates documentation, analyzes your repository, and interacts with Git. This file should be placed in the root directory of your project.
+The `penify.config.json` file is the central configuration resource for Penify. It controls how Penify generates documentation, analyzes your repository, and interacts with Git. This file should be placed in the root directory of your project.
 
 ## Complete Configuration Example
 
-Below is a complete example of a `penify-config.json` file with all available options:
+Below is a complete example of a `penify.config.json` file with all available options:
 
 ```json
 {
@@ -113,20 +113,20 @@ The `commit_output` object appears in both `api_docs` and `arch_docs` sections a
 
 ## Usage with Penify CLI
 
-The `penify-config.json` file is automatically detected by the Penify CLI when running commands like:
+The `penify.config.json` file is automatically detected by the Penify CLI when running commands like:
 
 ```bash
-# Generate documentation using settings from penify-config.json
+# Generate documentation using settings from penify.config.json
 penifycli docgen
 
-# Analyze repository using settings from penify-config.json
+# Analyze repository using settings from penify.config.json
 penifycli analyze
 ```
 
 You can also specify a different configuration file using the `--config` flag:
 
 ```bash
-penifycli docgen --config custom-penify-config.json
+penifycli docgen --config custom-penify.config.json
 ```
 
 ## Creating a Configuration File
@@ -137,21 +137,6 @@ The simplest way to create a configuration file is with the interactive configur
 penifycli config init
 ```
 
-This will guide you through a series of prompts to create a customized `penify-config.json` file for your project.
+This will guide you through a series of prompts to create a customized `penify.config.json` file for your project.
 
 Alternatively, you can create the file manually in your project root directory using the example provided above as a starting point.
-
-## Advanced Configuration
-
-For more advanced use cases, see the [Advanced Configuration Guide](/docs/advanced-configuration.md) which covers topics like:
-
-- Custom documentation templates
-- Integration with CI/CD pipelines
-- Team collaboration settings
-- Custom analysis rules
-
-## Related Documentation
-
-- [Penify CLI Documentation](/docs/penify-cli.md) - General usage of the Penify command-line tool
-- [API Documentation Guide](/docs/api-documentation.md) - Detailed guide to API documentation generation
-- [Architecture Documentation Guide](/docs/architecture-documentation.md) - Detailed guide to architecture documentation
