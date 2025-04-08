@@ -5,7 +5,7 @@ description: Learn the process of creating, using, and managing API keys in Peni
 keywords: Penify, API keys, authentication, integration, dashboard, security, developer tools, code documentation, static analysis, API management
 author: Suman Sauarbh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
-image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
+image: https://www.penify.dev/_next/static/media/suman.1cf25c09.webp
 ---
 
 # **Creating API Keys in Penify**

@@ -5,7 +5,7 @@ description: "Learn how to seamlessly integrate Penify with your AzureDevops rep
 keywords: Penify, AzureDevops, installation guide, automated documentation, YAML configuration, pipeline setup, PAT token, SNORKELL API key, continuous integration, AI documentation generation, repository management
 author: Suman Sauarbh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
-image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
+image: https://www.penify.dev/_next/static/media/suman.1cf25c09.webp
 ---
 
 # 🛠️ How to Install Penify on AzureDevops?

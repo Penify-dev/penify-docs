@@ -5,7 +5,7 @@ description: "Leverage Penify's advanced LLM capabilities to gain instant insigh
 keywords: Pull Request analysis, code review, LLM-powered PR review, PR description generation, code suggestions, security review, PR documentation, developer workflow, code quality, PR automation, Penify
 author: Suman Saurabh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
-image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
+image: https://www.penify.dev/_next/static/media/suman.1cf25c09.webp
 ---
 
 # Instant Pull Request Insight
