@@ -30,13 +30,13 @@ Follow these simple steps to generate documentation for your entire repository u
 ### Step 1: Log in to Penify Dashboard
 
 - Navigate to [Penify Dashboard](https://dashboard.penify.dev/) and log in with your GitHub account.
-[Penify Dashboard](../public/images/repo_documentation/penify-dashboard.png)
+![Penify Dashboard](../public/images/repo_documentation/penify-dashboard.png)
 
 ### Step 2: Select Your Repository
 
 - From your dashboard, select the repository for which you want to generate documentation.
 
-[Selected Repository](../public/images/repo_documentation/selected-repo.png)
+![Selected Repository](../public/images/repo_documentation/selected-repo.png)
 
 ### Step 3: Configure Documentation Settings (Optional)
 
@@ -51,7 +51,7 @@ Follow these simple steps to generate documentation for your entire repository u
 - After configuring your settings, click "Generate Documentation" to start the documentation generation process.
 - Penify will analyze your repository and automatically create comprehensive documentation.
 
-[Selected Repository](../public/images/repo_documentation/select-generate-docs.png)
+![Selected Repository](../public/images/repo_documentation/select-generate-docs.png)
 
 
 ### Step 5: Review and Merge Documentation
@@ -61,9 +61,9 @@ Follow these simple steps to generate documentation for your entire repository u
 - After reviewing, you can publish the documentation to your repository or export it in your preferred format.
 - [Sample example](https://github.com/Penify-dev/penify-cli/pull/50/files)
 
-[Sample PR](../public/images/repo_documentation/pr_generated.png)
+![Sample PR](../public/images/repo_documentation/pr_generated.png)
 
-[Commit Details](../public/images/repo_documentation/commit_details.png)
+![Commit Details](../public/images/repo_documentation/commit_details.png)
 
 ## Benefits of Automated Repo Documentation
 
