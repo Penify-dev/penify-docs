@@ -125,10 +125,10 @@ export default defineConfig({
         ],
       },
       {
-        text: "🖥️ Penify CLI",
-        link: "/docs/penify-cli",
-        items: [
-          {
+        items: [{
+          text: "🖥️ Penify CLI",
+          link: "/docs/penify-cli",
+          items:[{
             text: "📝 Penify Detailed Usage guide",
             link: "/docs/penify-cli-detailed-usage",
           },
@@ -155,7 +155,8 @@ export default defineConfig({
           {
             text: "👨🏻‍💻 Post-Commit Hooks",
             link: "/docs/post-commit-hooks-cli",
-          },
+          }]
+          }
         ],
       },
       {
@@ -163,8 +164,14 @@ export default defineConfig({
         link: "/docs/instant-pull-request-insight.md",
       },
       {
-        text: "Continuous Integration Commit Documentation",
-        link: "/docs/ci-commit-documentation.md",
+        items: [{
+        text: "Penify Dashboard",
+        items:[
+          {
+            text: "CI - Commit Documentation",
+            link: "/docs/ci-commit-documentation.md",
+          },
+        ]}]
       }
     ],
 
