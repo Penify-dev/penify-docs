@@ -159,8 +159,12 @@ export default defineConfig({
         ],
       },
       {
-        text: "Instant Pull Request Insight: LLM-Powered Code Review and Analysis",
+        text: "Instant PR Insight: LLM-Powered Code Review and Analysis",
         link: "/docs/instant-pull-request-insight.md",
+      },
+      {
+        text: "Continuos Integration Commit Documentation",
+        link: "/docs/ci-commit-documentation.md",
       }
     ],
 

@@ -14,13 +14,14 @@ Penify is an intelligent GitHub App designed to automate the process of generati
 
 It activates automatically after installation, tracking changes every time a pull request is merged. Penify recognizes new classes and functions in the code and crafts or updates documentation accordingly, creating a PR for review before merging.
 
-**The five core feature of Penify are:**
+**The core features of Penify are:**
 
 1. Code Documentation
 2. Pull Request Documentation
 3. API Documentation
 4. Architecture Documentation
 5. Git Commit Hooks
+6. [Commit Documentation](./commit-documentation.md)
 
 
 ## 🛠️ How to Install Penify on GitHub?
