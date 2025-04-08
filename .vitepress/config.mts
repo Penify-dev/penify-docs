@@ -101,7 +101,7 @@ export default defineConfig({
         link: "/docs/what-is-penify",
         items: [
           {
-            text: "🔧 Install Penify on Github",
+            text: "🔧 Install on Github",
             link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github",
             items: [
               {
@@ -111,12 +111,8 @@ export default defineConfig({
             ],
           },
           {
-            text: "🔧 Install Penify on AzureDevops",
+            text: "🔧 Install on AzureDevops",
             link: "/docs/install-penify-on-AzureDevops",
-          },
-          {
-            text: "🔑 Create API Token",
-            link: "/docs/Creating-API-Keys-in-Penify",
           },
           {
             text: "🔑 Setup penify.config.json",
@@ -147,7 +143,24 @@ export default defineConfig({
             link: "/docs/penify-cli-detailed-usage",
           },
           {
-            text: "📝 Commit Summary Generation",
+            text: "🔑 Create API Token",
+            link: "/docs/Creating-API-Keys-in-Penify",
+          },
+          {
+            text: "📝 Configure LLM and JIRA",
+            link: "/docs/config-cli-documentation",
+            items: [
+              {
+                text: "📝 Local LLM",
+                link: "/docs/config-cli-documentation#llm-configuration",
+              },
+              {
+                text: "📝 Jira",
+                link: "/docs/config-cli-documentation#using-local-llm#jira-configuration",
+              }]
+          },
+          {
+            text: "📝 Commit Summary",
             link: "/docs/commit-summary-generation-cli",
             items: [
               {
@@ -155,20 +168,17 @@ export default defineConfig({
                 link: "/docs/commit-summary-generation-cli#using-local-llm",
               },
               {
-                text: "📝 Enhance with Jira context",
+                text: "📝 Add Jira context",
                 link: "/docs/commit-summary-generation-cli#using-local-llm#jira-enhancement",
               }]
           },
-          {
-            text: "📝 Configure Penify to use Local LLM and JIRA",
-            link: "/docs/config-cli-documentation",
-          },
+          
           {
             text: "📄 File Documentation",
             link: "/docs/file-documentation-cli",
           },
           {
-            text: "📁 Repository Documentation",
+            text: "📁 Repo Documentation",
             link: "/docs/repository-documentation-cli",
           },
           {
