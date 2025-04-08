@@ -10,7 +10,7 @@ image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayp
 
 # Instant Pull Request Insight
 
-Penify's Pull Request Insight is a comprehensive solution that transforms the way development teams review, understand, and enhance their pull requests. Powered by advanced LLM technology, our solution offers real-time analysis, intelligent feedback, and automated improvements to streamline the PR workflow.
+Penify's Pull Request Insight is a comprehensive solution that transforms the way development teams review, understand, and enhance their pull requests. Powered by advanced LLM, our solution offers real-time analysis, intelligent feedback, and automated improvements to streamline the PR workflow. The fundamental code for this analysis has been copied from - [PR Agent](https://github.com/qodo-ai/pr-agent). I just do not like the way they have implemented and hence forked and made my own changes.
 
 ## Overview
 
@@ -43,6 +43,9 @@ Penify Pull Request Insight supports a wide range of platforms and provides an e
 
 ### Auto Description (`/describe`)
 
+![Penify Describe](../public/pr_analysis/describe.png)
+
+
 The Auto Description feature automatically generates comprehensive pull request descriptions, saving developers time and ensuring consistency across projects.
 
 **Capabilities:**
@@ -65,6 +68,8 @@ The Auto Description feature automatically generates comprehensive pull request 
 ```
 
 ### Auto Review (`/review`)
+
+![Penify Review](../public/pr_analysis/review.png)
 
 The Auto Review feature performs an in-depth analysis of pull requests to identify potential issues, suggest improvements, and assess overall quality.
 
@@ -93,6 +98,9 @@ The Auto Review feature performs an in-depth analysis of pull requests to identi
 
 ### Code Suggestions (`/improve`)
 
+![Penify Improve](../public/pr_analysis/improve.png)
+
+
 The Code Suggestions feature analyzes the pull request and offers specific, contextual improvements to enhance code quality.
 
 **Capabilities:**
@@ -116,6 +124,9 @@ The Code Suggestions feature analyzes the pull request and offers specific, cont
 
 ### Question Answering (`/ask`)
 
+![Penify Ask](../public/pr_analysis/Ask_line.png)
+
+
 The Question Answering feature allows developers to ask free-text questions about a pull request and receive contextually-aware answers.
 
 **Capabilities:**
@@ -138,6 +149,9 @@ The Question Answering feature allows developers to ask free-text questions abou
 ```
 
 ### Update Changelog (`/update_changelog`)
+
+![Penify changelog-1](../public/pr_analysis/update_changelog_comment.png)
+![Penify changelog-2](../public/pr_analysis/update_changelog.png)
 
 The Update Changelog feature automatically identifies changes in the pull request and updates the CHANGELOG.md file accordingly.
 
