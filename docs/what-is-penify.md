@@ -21,7 +21,8 @@ It activates automatically after installation, tracking changes every time a pul
 3. API Documentation
 4. Architecture Documentation
 5. Git Commit Hooks
-6. [Commit Documentation](./commit-documentation.md)
+6. [Commit Documentation](./ci-commit-documentation.md.md)
+7. [Repo Documentation](./repo-documentation.md)
 
 
 ## 🛠️ How to Install Penify on GitHub?
@@ -45,7 +46,6 @@ Installing Penify on your GitHub repository or organization is a straightforward
    - It can also be found through the GitHub Marketplace or by visiting the Penify website and selecting the option to install.
 
 3. **Initiate Installation**
-   - Click on the green ‘Install’ 🟢. This will redirect you to a page where you can choose where to install Penify.
   
     ![Penify Installation](../public/images/github-app-install.png)
 

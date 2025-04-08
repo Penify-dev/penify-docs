@@ -516,7 +516,7 @@ To start using Penify Pull Request Insight, follow these simple steps:
 4. Invoke Penify with the appropriate command (e.g., `@PenifyBot /review`)
 5. Receive insights and take action based on the recommendations
 
-For detailed installation and configuration instructions, see our [Quick Start Guide](/docs/quick-start.md).
+For detailed installation and configuration instructions, see our [Quick Start Guide](./what-is-penify.md).
 
 ## Conclusion
 

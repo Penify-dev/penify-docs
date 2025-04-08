@@ -122,6 +122,17 @@ export default defineConfig({
       }]},
       {
         items: [{
+        text: "🔗 Penify Dashboard",
+        items:[
+          {
+            text: "✅ Repo Documentation",
+            link: "/docs/repo-documentation.md",
+          },
+        ]
+      }]
+      },
+      {
+        items: [{
         text: "🔗 Penify Webhooks",
         items:[
           {
