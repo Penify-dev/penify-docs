@@ -122,17 +122,18 @@ export default defineConfig({
       }]},
       {
         items: [{
-        text: "Penify Webhooks",
+        text: "🔗 Penify Webhooks",
         items:[
           {
-            text: "CI - Commit Documentation",
+            text: "✅ Commit Documentation",
             link: "/docs/ci-commit-documentation.md",
           },
           {
-            text: "Pull Request Review",
+            text: "🔍 Pull Request Review",
             link: "/docs/instant-pull-request-insight.md",
           },
-        ]}]
+        ]
+      }]
       },
       {
         items: [{
