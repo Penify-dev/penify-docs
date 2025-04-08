@@ -96,7 +96,7 @@ export default defineConfig({
     },
 
     sidebar: [
-      {
+      {items: [{
         text: "📚 Penify: Getting Started?",
         link: "/docs/what-is-penify",
         items: [
@@ -119,22 +119,45 @@ export default defineConfig({
             link: "/docs/Creating-API-Keys-in-Penify",
           },
           {
-            text: "🔑 Penify Configuration: Complete Guide to penify.config.json",
+            text: "🔑 Setup penify.config.json",
             link: "/docs/penify-config-json.md",
           },
         ],
+      }]},
+      {
+        items: [{
+        text: "Penify Webhooks",
+        items:[
+          {
+            text: "CI - Commit Documentation",
+            link: "/docs/ci-commit-documentation.md",
+          },
+          {
+            text: "Pull Request Review",
+            link: "/docs/instant-pull-request-insight.md",
+          },
+        ]}]
       },
       {
         items: [{
           text: "🖥️ Penify CLI",
           link: "/docs/penify-cli",
           items:[{
-            text: "📝 Penify Detailed Usage guide",
+            text: "📝 Detailed Usage guide",
             link: "/docs/penify-cli-detailed-usage",
           },
           {
             text: "📝 Commit Summary Generation",
             link: "/docs/commit-summary-generation-cli",
+            items: [
+              {
+                text: "📝 Using Local LLM",
+                link: "/docs/commit-summary-generation-cli#using-local-llm",
+              },
+              {
+                text: "📝 Enhance with Jira context",
+                link: "/docs/commit-summary-generation-cli#using-local-llm#jira-enhancement",
+              }]
           },
           {
             text: "📝 Configure Penify to use Local LLM and JIRA",
@@ -159,20 +182,6 @@ export default defineConfig({
           }
         ],
       },
-      {
-        text: "Instant PR Insight: LLM-Powered Code Review and Analysis",
-        link: "/docs/instant-pull-request-insight.md",
-      },
-      {
-        items: [{
-        text: "Penify Dashboard",
-        items:[
-          {
-            text: "CI - Commit Documentation",
-            link: "/docs/ci-commit-documentation.md",
-          },
-        ]}]
-      }
     ],
 
     socialLinks: [
