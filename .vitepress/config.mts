@@ -97,7 +97,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "📚 What is Penify?",
+        text: "📚 Penify: Getting Started?",
         link: "/docs/what-is-penify",
         items: [
           {

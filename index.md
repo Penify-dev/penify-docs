@@ -32,7 +32,7 @@ features:
   - title: Install Penify on AuzreDevops
     details: Guide on how to install Penify  on AzureDevops
     link: /docs/install-penify-on-AzureDevops.md
-  - title: Install Penify on Github
+  - title: "Penify: Getting Started"
     details: Details on how to install Penify  on Github
     link: /docs/what-is-penify.md
   # - title: Feature B
