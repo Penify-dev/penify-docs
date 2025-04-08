@@ -14,7 +14,7 @@ hero:
       link: https://github.com/Penify-dev/
 
 features:
-  - title: "Continuos Integration Commit Documentation"
+  - title: "Continuous Integration Commit Documentation"
     details: "Learn how Penify automates documentation generation for every commit merged into your GitHub repository, creating detailed PRs for easy review and integration."
     link: /docs/ci-commit-documentation.md
   - title: "Instant PR Insight: Code Review and Analysis"

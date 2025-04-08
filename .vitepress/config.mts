@@ -163,7 +163,7 @@ export default defineConfig({
         link: "/docs/instant-pull-request-insight.md",
       },
       {
-        text: "Continuos Integration Commit Documentation",
+        text: "Continuous Integration Commit Documentation",
         link: "/docs/ci-commit-documentation.md",
       }
     ],
