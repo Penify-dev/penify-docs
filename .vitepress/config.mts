@@ -122,10 +122,10 @@ export default defineConfig({
       }]},
       {
         items: [{
-        text: "🔗 Penify Dashboard",
+        text: "💠 Penify Dashboard",
         items:[
           {
-            text: "✅ Repo Documentation",
+            text: "📁 Repo Documentation",
             link: "/docs/repo-documentation.md",
           },
         ]
@@ -186,19 +186,19 @@ export default defineConfig({
           },
           
           {
-            text: "📄 File Documentation",
+            text: "📝 File Documentation",
             link: "/docs/file-documentation-cli",
           },
           {
-            text: "📁 Repo Documentation",
+            text: "📝 Repo Documentation",
             link: "/docs/repository-documentation-cli",
           },
           {
-            text: "✏️ Commit Documentation",
+            text: "📝 Commit Documentation",
             link: "/docs/commit-documentation-cli",
           },
           {
-            text: "👨🏻‍💻 Post-Commit Hooks",
+            text: "📝 Post-Commit Hooks",
             link: "/docs/post-commit-hooks-cli",
           }]
           }
