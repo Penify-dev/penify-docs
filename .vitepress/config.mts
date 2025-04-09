@@ -103,6 +103,7 @@ export default defineConfig({
           {
             text: "🔧 Install on Github",
             link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github",
+            collapsed: true,
             items: [
               {
                 text: "🐞 Troubleshoot Code Git Commit Documentation",
@@ -159,8 +160,9 @@ export default defineConfig({
             link: "/docs/Creating-API-Keys-in-Penify",
           },
           {
-            text: "📝 Configure LLM and JIRA",
+            text: "📝 Configure LLM + JIRA",
             link: "/docs/config-cli-documentation",
+            collapsed: true,
             items: [
               {
                 text: "📝 Local LLM",
@@ -174,6 +176,7 @@ export default defineConfig({
           {
             text: "📝 Commit Summary",
             link: "/docs/commit-summary-generation-cli",
+            collapsed: true,
             items: [
               {
                 text: "📝 Using Local LLM",
