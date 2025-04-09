@@ -106,7 +106,7 @@ export default defineConfig({
             collapsed: true,
             items: [
               {
-                text: "🐞 Troubleshoot Code Git Commit Documentation",
+                text: "🐞 Troubleshoot",
                 link: "/docs/troubleshooting-code-git-commit-documentation",
               },
             ],
