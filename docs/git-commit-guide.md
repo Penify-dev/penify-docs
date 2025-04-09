@@ -55,7 +55,7 @@ Use the following structure for your commit messages:
 Penify-CLI can help generate comprehensive commit messages:
 
 ```bash
-penify-cli commit -gf /path/to/repo -t your_token
+penifycli commit -gf /path/to/repo -t your_token
 ```
 
 This command will analyze your changes and generate a commit message. You can then review and edit if necessary.
@@ -127,7 +127,7 @@ Fixes #456
 Penify-CLI can help analyze your commits and suggest improvements:
 
 ```bash
-penify-cli analyze-commits -gf /path/to/repo -t your_token
+penifycli analyze-commits -gf /path/to/repo -t your_token
 ```
 
 This command will provide feedback on your recent commits and suggest ways to improve them.

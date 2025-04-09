@@ -16,7 +16,7 @@ Penify-CLI can generate documentation of classes/functions for your recent chang
 Login to Penify, make sure you have an account or you have [created an account](https://www.penify.dev/).
 
 ```bash
-penify-cli login
+penifycli login
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ To document recent Git changes:
 
 ```bash
 cd /path/to/folder
-penify-cli doc-gen
+penifycli doc-gen
 ```
 
 ### Options

@@ -17,7 +17,7 @@ Penify-CLI allows you to install and manage Git post-commit hooks for automated 
 Login to Penify, make sure you have an account or you have [created an account](https://www.penify.dev/).
 
 ```bash
-penify-cli login
+penifycli login
 ```
 
 ## Installation
@@ -26,7 +26,7 @@ To install a post-commit hook:
 
 ```bash
 cd /path/to/rep
-penify-cli install-hook
+penifycli install-hook
 ```
 
 ### Options
@@ -40,7 +40,7 @@ To uninstall a post-commit hook:
 
 ```bash
 cd /path/to/repo
-penify-cli uninstall-hook
+penifycli uninstall-hook
 ```
 
 ### Options
