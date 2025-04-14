@@ -10,30 +10,33 @@ image: https://www.penify.dev/_next/static/media/suman.1cf25c09.webp
 
 # What's Penify?
 
-Penify is an intelligent GitHub App designed to automate the process of generating and updating documentation for GitHub projects. 
+Penify is a Git App (GitHub/BitBucket) designed to automate the documentation for Git projects automatically.
 
-It activates automatically after installation, tracking changes every time a pull request is merged. Penify recognizes new classes and functions in the code and crafts or updates documentation accordingly, creating a PR for review before merging.
+It activates automatically after installation in your Git Repo. 
+a. It tracks changes every time a pull request is merged. 
+b. Penify recognizes new classes and functions in the code and updates documentation accordingly.
+
 
 **The core features of Penify are:**
 
-1. Code Documentation
-2. Pull Request Documentation
-3. API Documentation
-4. Architecture Documentation
-5. Git Commit Hooks
-6. [Commit Documentation](./ci-commit-documentation.md.md)
-7. [Repo Documentation](./repo-documentation.md)
+1. [Full Repository Documentation](./repo-documentation.md)
+2. [Automatic Documentation Update](./ci-commit-documentation.md)
+3. [Pull Request Analysis](./instant-pull-request-insight.md)
+4. [AI Commits](./commit-documentation-cli.md)
+5. Documentation Quality of your Repository.
+6. API Documentation
+7. Architecture Documentation
+8. Git Commit Hooks
 
 
 ## 🛠️ How to Install Penify on GitHub?
 
-Installing Penify on your GitHub repository or organization is a straightforward process. This guide will walk you through the steps to integrate Penify, ensuring your project's documentation is automatically generated and updated.
+Installing Penify on your GitHub repository or organization is a straightforward process. For Bitbucket, please check this [document](./install_penify_on_bitbucket.md).
 
 ### 📋 Pre-requisites
 
 - A GitHub account.
-- Administrative access to the repository or organization where Penify will be installed.
-- If you don't have admin privilege, you can choose another path by clicking on this link.
+- If you face permissions issue, please connect with [Penify Support team](https://calendly.com/sumansaurabh-snorkell/intro-snorkell-i)
 
 ### 🧭 Step-by-Step Installation Guide
 
@@ -56,21 +59,17 @@ Installing Penify on your GitHub repository or organization is a straightforward
     ![Penify Installation](../public/images/install-authorize.png)
 
 5. **Configure Permissions**
-   - Review the permissions requested by Penify. These permissions are necessary for the app to access your code and generate documentation. 🔒
+   - Review the permissions requested by Penify.
    - Grant the necessary permissions by clicking ‘Approve & install’ or a similar confirmation button.
 
 6. **Complete Installation**
    - Once you approve the permissions, Penify will be installed on your selected repositories or organization. ✅
-   - You will receive a confirmation message, and you may be redirected to [Penify Dashboard](https://dashboard.penify.ai/).
+   - You will receive a confirmation message, and you may be redirected to [Penify Dashboard](https://dashboard.penify.dev/).
 
-7. **Verify Installation**
-   - Go to the ‘Settings’ of your repository or organization.
-   - Navigate to the ‘Installed GitHub Apps’ section to confirm that Penify is listed there.
-
-8. **Start Using Penify**
+7. **Start Using Penify**
    - Once installed, Penify will automatically start tracking pull requests and generate or update documentation accordingly. 📚
 
-9. **Troubleshooting Github App Installation**
+8. **Troubleshooting Github App Installation**
     - There could be multiple reason due to which the Github APP is not installed. Please go through this link if your Code Documentation is not getting generated. 
 
 ### 🎥 Demo - Github

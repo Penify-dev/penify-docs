@@ -116,6 +116,10 @@ export default defineConfig({
             link: "/docs/install-penify-on-AzureDevops",
           },
           {
+            text: "🔧 Install on BitBucket",
+            link: "/docs/install_penify_on_bitbucket",
+          },
+          {
             text: "🔑 Setup penify.config.json",
             link: "/docs/penify-config-json.md",
           },
