@@ -87,17 +87,17 @@ export const getQueryParameter = (name: string) => {
 };
 
 export const trackLinkClick = (url: string, email: string = "", cId: string = "") => {
-  inHouseAnalytics("linkClick_docs",{ url });
+  inHouseAnalytics("linkClick_docs",{ url, email, cId, home_url: window.location.href });
 };
 
 export const trackScroll = (value: number) => {
-  inHouseAnalytics("scroll_docs", {event:"scrolled 50% on homepage"});
+  inHouseAnalytics("scroll_docs", {event:"scrolled 50% on homepage", home_url: window.location.href});
 };
 
 export const trackFormSubmission = (value: [string]) => {
-  inHouseAnalytics("formSubmission_docs", {event:"contact us form submission"});
+  inHouseAnalytics("formSubmission_docs", {event:"contact us form submission", home_url: window.location.href});
 };
 
 export const trackVideoStart = (value: boolean) => {
-  inHouseAnalytics("videoView_docs", {event:"Penify.dev video tuts"});
+  inHouseAnalytics("videoView_docs", {event:"Penify.dev video tuts", home_url: window.location.href});
 };
