@@ -8,6 +8,7 @@
       <AuthorInfo />
       <Comments />
     </template>
+    <Analytics />
   </Layout>
 </template>
 
@@ -17,8 +18,7 @@ import ShareButtons from './ShareButtons.vue'
 import AuthorInfo from './AuthorInfo.vue'
 import EmailSignup from './EmailSignup.vue'
 import Comments from './Comments.vue'
-
-
+import Analytics from './Analytics.vue'
 
 const { Layout } = DefaultTheme
 </script>

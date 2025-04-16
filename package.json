@@ -18,5 +18,8 @@
     "fs-extra": "^11.2.0",
     "vite-plugin-webp-generator": "^0.1.0",
     "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "mixpanel-browser": "^2.63.0"
   }
 }
