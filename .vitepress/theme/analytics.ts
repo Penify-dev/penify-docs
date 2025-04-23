@@ -13,28 +13,33 @@ const isBrowser = (): boolean => {
 };
 
 export function inHouseAnalytics(event: string, eventRef: Dict) {
-  if (!isBrowser()) return;
-  // if localhost, return
-  if (window.location.hostname === "localhost") return;
+  if (!isBrowser()) {
+    console.log('Analytics not sent: Not in browser environment');
+    return;
+  }
   
+  // Debug logs (remove in production)
+  // console.log(`Analytics event: ${event}`, eventRef);
+  
+  // Skip tracking on localhost unless in debug mode
+  const isLocalhost = window.location.hostname === "localhost";
+  if (isLocalhost) {
+    return;
+  }
+  event = "docs_"+event
   const cId = localStorage.getItem("cId");
-  let email = localStorage.getItem("aId");
-  // capture all query params in eventRef
-  const queryParams = new URLSearchParams(window.location.search);
-  queryParams.forEach((value, key) => {
-    if (key !== "oid" && key !== "ot" && key !== "eid") {
-      eventRef[key] = value;
-    }
-  });
+  let email = localStorage.getItem("email");
   
   if(!email) {
     // Generate a unique anonymous ID if email doesn't exist
-    let anonymousId = localStorage.getItem("aId");
+    let anonymousId = getQueryParameter("aId")  || localStorage.getItem("aId");
+    
     if (!anonymousId) {
       // Create unique ID combining timestamp and random string
       anonymousId = `an_${Date.now()}_${Math.random().toString(36).substring(2, 10)}`;
-      localStorage.setItem("aId", anonymousId);
+      // localStorage.setItem("aId", anonymousId);
     }
+    localStorage.setItem("aId", anonymousId);
     email = anonymousId; // Use this as the identifier instead of email
   }
   
@@ -53,51 +58,103 @@ export function inHouseAnalytics(event: string, eventRef: Dict) {
       url: isBrowser() ? window.location.href : '',
       referrer: isBrowser() ? document.referrer : '',
       eId: eId,
+      timestamp: new Date().toISOString(),
+      userAgent: navigator.userAgent
     }),
   };
 
   try {
-    // axiosInstance.post("v1/analytics/track", data);
+    console.log('Sending analytics data:', data);
+    
     fetch("https://production-gateway.snorkell.ai/api/v1/analytics/track", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(data),
+      // Add these options for better cross-origin support
+      mode: 'cors',
+      credentials: 'omit'
     })
     .then(response => {
-      // Handle response if needed
+      console.log('Analytics response status:', response.status);
+      if (!response.ok) {
+        console.error('Analytics API error:', response.status);
+      }
+      return response.text();
+    })
+    .then(text => {
+      if (text) {
+        try {
+          const json = JSON.parse(text);
+          console.log('Analytics API response:', json);
+        } catch (e) {
+          console.log('Analytics API response (text):', text);
+        }
+      }
     })
     .catch(error => {
-      console.log(error);
+      console.error('Analytics fetch error:', error);
     });
   } catch (error) {
-    console.log(error);
+    console.error('Analytics error:', error);
   }
 }
 
 export const pageView = (url: string) => {
-  inHouseAnalytics("pageView_docs", {url});
+  inHouseAnalytics("pageView", {url});
 };
 
 export const getQueryParameter = (name: string) => {
-  if (!isBrowser()){console.log("server side rendering"); return null};
+  if (!isBrowser()){
+    console.log("Server side rendering - can't access URL parameters");
+    return null
+  };
   const urlParams = new URLSearchParams(window.location.search);
   return urlParams.get(name);
 };
 
 export const trackLinkClick = (url: string, email: string = "", cId: string = "") => {
-  inHouseAnalytics("linkClick_docs",{ url, email, cId, home_url: window.location.href });
+  inHouseAnalytics("linkClick", { 
+    url,
+    referrer: document.referrer || window.location.href 
+  });
 };
 
 export const trackScroll = (value: number) => {
-  inHouseAnalytics("scroll_docs", {event:"scrolled 50% on homepage", home_url: window.location.href});
+  inHouseAnalytics("scroll", {
+    depth: `${value}%`,
+    url: window.location.href
+  });
 };
 
 export const trackFormSubmission = (value: [string]) => {
-  inHouseAnalytics("formSubmission_docs", {event:"contact us form submission", home_url: window.location.href});
+  inHouseAnalytics("formSubmission", {
+    event: "contact us form submission",
+    formData: value
+  });
 };
 
 export const trackVideoStart = (value: boolean) => {
-  inHouseAnalytics("videoView_docs", {event:"Penify.dev video tuts", home_url: window.location.href});
+  inHouseAnalytics("videoView", {
+    event: "Penify.dev video tuts",
+    play: value
+  });
 };
+
+// Enable debug mode for localhost testing
+export const enableAnalyticsDebug = () => {
+  if (isBrowser()) {
+    sessionStorage.setItem('analytics_debug', 'true');
+    console.log('Analytics debug mode enabled');
+  }
+};
+
+// Initialize analytics on page load
+if (isBrowser()) {
+  // Auto-initialize
+  window.addEventListener('load', () => {
+    console.log('Analytics initialized on page load');
+    pageView(window.location.href);
+  });
+}
