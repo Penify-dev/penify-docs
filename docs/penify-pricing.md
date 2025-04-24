@@ -7,7 +7,7 @@ keywords: Penify, pricing, plans, subscription, freemium, premium, pro, enterpri
 
 <!-- 🌟 LIMITED TIME OFFER 🌟 -->
 <div style="background: linear-gradient(90deg, #f9d423 0%, #ff4e50 100%); color: #222; padding: 1.2em 1em; border-radius: 8px; margin: 1.5em 0; font-size: 1.15em; font-weight: 600; box-shadow: 0 2px 8px rgba(255,78,80,0.08); text-align: center;">
-  🎁 <strong>Sign up before <span style="color:#ff4e50;">30th May</span> and get <span style="color:#f9d423;">10 FREE credits</span> to try Penify's premium features!</strong> No card required. Start documenting smarter today!
+  🎁 <strong><a href="https://dashboard.penify.dev" style="color:inherit; text-decoration:underline;" target='_blank'>Sign up</a> before <span style="color:#ff4e50;">30th May</span> and get <span style="color:#f9d423;">10 FREE credits</span> to try Penify's premium features!</strong> No card required. Start documenting smarter today!
 </div>
 
 # **Penify Pricing Guide**
