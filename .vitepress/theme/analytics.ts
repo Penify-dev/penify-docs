@@ -64,9 +64,12 @@ export function inHouseAnalytics(event: string, eventRef: Dict) {
   };
 
   try {
-    console.log('Sending analytics data:', data);
-    
-    fetch("https://production-gateway.snorkell.ai/api/v1/analytics/track", {
+    // console.log('Sending analytics data:', data);
+    let url = "https://production-gateway.snorkell.ai/api/v1/analytics/track";
+    if (isLocalhost) {
+      url = "https://staging-gateway.snorkell.ai/api/v1/analytics/track";
+    }
+    fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -77,9 +80,9 @@ export function inHouseAnalytics(event: string, eventRef: Dict) {
       credentials: 'omit'
     })
     .then(response => {
-      console.log('Analytics response status:', response.status);
+      // console.log('Analytics response status:', response.status);
       if (!response.ok) {
-        console.error('Analytics API error:', response.status);
+        // console.error('Analytics API error:', response.status);
       }
       return response.text();
     })
@@ -87,9 +90,9 @@ export function inHouseAnalytics(event: string, eventRef: Dict) {
       if (text) {
         try {
           const json = JSON.parse(text);
-          console.log('Analytics API response:', json);
+          // console.log('Analytics API response:', json);
         } catch (e) {
-          console.log('Analytics API response (text):', text);
+          // console.log('Analytics API response (text):', text);
         }
       }
     })
