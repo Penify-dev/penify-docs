@@ -125,6 +125,10 @@ export default defineConfig({
           },
         ],
       }]},
+      {items: [{
+        text: "💰 Penify Pricing",
+        link: "/docs/penify-pricing.md",
+      }]},
       {
         items: [{
         text: "💠 Penify Dashboard",

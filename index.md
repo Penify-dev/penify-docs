@@ -32,16 +32,19 @@ features:
   - title: Create API Token
     details: Guide on how to create API Token
     link: /docs/Creating-API-Keys-in-Penify.md
+  - title: "💰 Penify Pricing"
+    details: "Compare Penify's Freemium, Premium, Pro, and Enterprise plans. Find the best fit for your team and see a detailed feature breakdown."
+    link: /docs/penify-pricing.md
   - title: Install Penify on AuzreDevops
     details: Guide on how to install Penify  on AzureDevops
     link: /docs/install-penify-on-AzureDevops.md
   - title: "Penify: Getting Started"
     details: Details on how to install Penify  on Github
     link: /docs/what-is-penify.md
-  # - title: Feature B
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  # - title: Feature C
-  #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# - title: Feature B
+#   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# - title: Feature C
+#   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 <ClientOnly>
   <EmailSignup />
