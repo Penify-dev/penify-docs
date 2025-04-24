@@ -145,13 +145,6 @@ export const trackVideoStart = (value: boolean) => {
   });
 };
 
-// Enable debug mode for localhost testing
-export const enableAnalyticsDebug = () => {
-  if (isBrowser()) {
-    sessionStorage.setItem('analytics_debug', 'true');
-    console.log('Analytics debug mode enabled');
-  }
-};
 
 // Initialize analytics on page load
 if (isBrowser()) {
