@@ -23,9 +23,6 @@ export function inHouseAnalytics(event: string, eventRef: Dict) {
   
   // Skip tracking on localhost unless in debug mode
   const isLocalhost = window.location.hostname === "localhost";
-  if (isLocalhost) {
-    return;
-  }
   event = "docs_"+event
   const cId = localStorage.getItem("cId");
   let email = localStorage.getItem("email");

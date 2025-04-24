@@ -3,12 +3,13 @@
     <template #aside-bottom>
       <ShareButtons />
       <EmailSignup />
+      <Analytics />
     </template>
     <template #doc-footer-before>
       <AuthorInfo />
-      <Comments />
+      <Comments />  
     </template>
-    <Analytics />
+    
   </Layout>
 </template>
 
