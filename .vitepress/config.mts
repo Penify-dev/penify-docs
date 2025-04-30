@@ -125,10 +125,6 @@ export default defineConfig({
           },
         ],
       }]},
-      {items: [{
-        text: "💰 Penify Pricing",
-        link: "/docs/penify-pricing.md",
-      }]},
       {
         items: [{
         text: "💠 Penify Dashboard",
@@ -160,17 +156,19 @@ export default defineConfig({
           text: "🖥️ Penify CLI",
           link: "/docs/penify-cli",
           items:[{
-            text: "📝 Detailed Usage guide",
+            text: "📝 Usage guide",
             link: "/docs/penify-cli-detailed-usage",
-          },
-          {
-            text: "🔑 Create API Token",
-            link: "/docs/Creating-API-Keys-in-Penify",
-          },
-          {
-            text: "📝 Configure LLM + JIRA",
-            link: "/docs/config-cli-documentation",
             collapsed: true,
+            items: [
+              {
+                text: "🔑 Create API Keys",
+                link: "/docs/Creating-API-Keys-in-Penify",
+              }]
+          },
+          {
+            text: "📝 Configure Setup",
+            link: "/docs/config-cli-documentation#llm-configuration",
+            collapsed: false,
             items: [
               {
                 text: "📝 Local LLM",
@@ -179,6 +177,10 @@ export default defineConfig({
               {
                 text: "📝 Jira",
                 link: "/docs/config-cli-documentation#using-local-llm#jira-configuration",
+              },
+              {
+                text: "📝 Commit Hooks",
+                link: "/docs/post-commit-hooks-cli",
               }]
           },
           {
@@ -207,14 +209,14 @@ export default defineConfig({
           {
             text: "📝 Commit Documentation",
             link: "/docs/commit-documentation-cli",
-          },
-          {
-            text: "📝 Post-Commit Hooks",
-            link: "/docs/post-commit-hooks-cli",
           }]
           }
         ],
       },
+      {items: [{
+        text: "💰 Penify Pricing",
+        link: "/docs/penify-pricing.md",
+      }]},
     ],
 
     socialLinks: [

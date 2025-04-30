@@ -441,7 +441,7 @@ Penify's AI implements self-reflection to improve result quality:
 ### Command Line Interface
 
 ```bash
-penifycli pr insight --repo-path /path/to/repo --pr-number 123 --command review
+penify pr insight --repo-path /path/to/repo --pr-number 123 --command review
 ```
 
 ### GitHub App / Webhook

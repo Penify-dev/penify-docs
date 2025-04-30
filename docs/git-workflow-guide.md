@@ -28,7 +28,7 @@ This guide outlines best practices for managing and documenting changes in your 
 1. **Commit Often**: Make small, focused commits rather than large, multi-purpose ones.
 2. **Write Clear Commit Messages**: Use Penify-CLI's commit summary generation for consistency.
    ```bash
-   penifycli commit -gf /path/to/repo -t your_token
+   penify commit -gf /path/to/repo -t your_token
    ```
 3. **Use Conventional Commit Messages**: Follow a format like:
    ```
@@ -45,7 +45,7 @@ This guide outlines best practices for managing and documenting changes in your 
 1. Create a Pull Request (PR) for your feature branch.
 2. Use Penify-CLI to generate documentation for changed files:
    ```bash
-   penifycli doc-gen -t your_token -gf /path/to/repo
+   penify doc-gen -t your_token -gf /path/to/repo
    ```
 3. Include generated documentation in your PR description.
 4. Assign reviewers and address their comments.
@@ -57,7 +57,7 @@ This guide outlines best practices for managing and documenting changes in your 
 2. **Keep README.md Current**: Update project overview and setup instructions as needed.
 3. **In-Code Documentation**: Use Penify-CLI to generate and update docstrings:
    ```bash
-   penifycli doc-gen -t your_token -fl /path/to/file.py
+   penify doc-gen -t your_token -fl /path/to/file.py
    ```
 
 ## 5. Release Process
@@ -65,7 +65,7 @@ This guide outlines best practices for managing and documenting changes in your 
 1. Create a release branch from `develop`.
 2. Use Penify-CLI to generate full repository documentation:
    ```bash
-   penifycli doc-gen -t your_token -cf /path/to/repo
+   penify doc-gen -t your_token -cf /path/to/repo
    ```
 3. Update version numbers and CHANGELOG.md.
 4. Merge release branch to `main` and tag the release.

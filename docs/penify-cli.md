@@ -20,7 +20,7 @@ Penify CLI is a tool that enhances your development workflow with AI-powered cap
 ## Installation
 
 ```bash
-pip install penifycli
+pip install penify
 ```
 
 ## Authentication
@@ -30,7 +30,7 @@ Penify CLI supports two authentication methods:
 ### 1. Login to Penify Account (Required for Advanced Features)
 
 ```bash
-penifycli login
+penify login
 ```
 
 This command will open your browser and prompt you to log in to your Penify account. Once authenticated, your API token will be saved locally.
@@ -48,52 +48,52 @@ export PENIFY_API_TOKEN=your_api_token
 ### Generate Smart Commit Messages
 
 ```bash
-penifycli commit
+penify commit
 ```
 
 ### Generate Code Documentation
 
 ```bash
 # Generate documentation for current Git diff (requires login)
-penifycli docgen
+penify docgen
 
 # Generate documentation for a specific file
-penifycli docgen -l path/to/file.py
+penify docgen -l path/to/file.py
 
 # Generate documentation for a folder
-penifycli docgen -l path/to/folder
+penify docgen -l path/to/folder
 ```
 
 ### Configure Local LLM or JIRA
 
 ```bash
 # Configure Local LLM for commit message generation
-penifycli config llm
+penify config llm
 
 # Configure JIRA integration
-penifycli config jira
+penify config jira
 ```
 
 ### Automate Documentation with Git Hooks
 
 ```bash
 # Install a post-commit hook
-penifycli docgen install-hook
+penify docgen install-hook
 
 # Remove the hook
-penifycli docgen uninstall-hook
+penify docgen uninstall-hook
 ```
 
 ## Getting Help
 
 ```bash
 # Get general help
-penifycli --help
+penify --help
 
 # Get help for a specific command
-penifycli commit --help
-penifycli docgen --help
-penifycli config --help
+penify commit --help
+penify docgen --help
+penify config --help
 ```
 
 For detailed documentation and examples, see [docs/detailed-usage.md](/docs/penify-cli-detailed-usage.md).

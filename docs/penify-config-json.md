@@ -117,16 +117,16 @@ The `penify.config.json` file is automatically detected by the Penify CLI when r
 
 ```bash
 # Generate documentation using settings from penify.config.json
-penifycli docgen
+penify docgen
 
 # Analyze repository using settings from penify.config.json
-penifycli analyze
+penify analyze
 ```
 
 You can also specify a different configuration file using the `--config` flag:
 
 ```bash
-penifycli docgen --config custom-penify.config.json
+penify docgen --config custom-penify.config.json
 ```
 
 ## Creating a Configuration File
@@ -134,7 +134,7 @@ penifycli docgen --config custom-penify.config.json
 The simplest way to create a configuration file is with the interactive configuration command:
 
 ```bash
-penifycli config init
+penify config init
 ```
 
 This will guide you through a series of prompts to create a customized `penify.config.json` file for your project.
