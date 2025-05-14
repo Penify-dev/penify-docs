@@ -209,6 +209,10 @@ export default defineConfig({
           {
             text: "📝 Commit Documentation",
             link: "/docs/commit-documentation-cli",
+          },
+          {
+            text: "📝 Architecture Documentation",
+            link: "/docs/architecture-documentation-penify",
           }]
           }
         ],
