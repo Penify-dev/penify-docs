@@ -7,7 +7,8 @@
     </template>
     <template #doc-footer-before>
       <AuthorInfo />
-      <Comments />  
+      <VibeDoctorLink />
+      <Comments />
     </template>
     
   </Layout>
@@ -20,6 +21,7 @@ import AuthorInfo from './AuthorInfo.vue'
 import EmailSignup from './EmailSignup.vue'
 import Comments from './Comments.vue'
 import Analytics from './Analytics.vue'
+import VibeDoctorLink from './VibeDoctorLink.vue'
 
 const { Layout } = DefaultTheme
 </script>
